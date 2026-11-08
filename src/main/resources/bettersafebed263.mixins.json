@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "itamio.bettersafebed.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["MonsterMixin"],
+  "injectors": {"defaultRequire": 1}
+}

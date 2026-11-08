@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "bettersafebed263",
+  "version": "${version}",
+  "name": "Better Safe Bed",
+  "description": "Lets you sleep when safe even if monsters lurk nearby out of reach. Unofficial port of Better Safe Bed by frankV (MIT) for Minecraft 26.3 (Fabric). See NOTICE for credit.",
+  "authors": ["Itamio", "frankV"],
+  "contact": {
+    "homepage": "https://github.com/Sekai0NI0itamio/BetterSafeBed263",
+    "sources": "https://github.com/frank89722/BetterSafeBed",
+    "issues": "https://github.com/Sekai0NI0itamio/BetterSafeBed263/issues"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {"main": ["itamio.bettersafebed.BetterSafeBedMod"]},
+  "mixins": ["bettersafebed263.mixins.json"],
+  "depends": {"fabricloader": ">=0.20.1", "minecraft": "~26.3", "java": ">=25", "fabric-api": "*"}
+}
