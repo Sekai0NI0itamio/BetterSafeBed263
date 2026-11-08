@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="bettersafebed"
+version="1.0.0"
+displayName="Better Safe Bed"
+authors="Itamio, frankV"
+description='''Lets you sleep when safe even if monsters lurk nearby out of reach. Unofficial Forge port of Better Safe Bed by frankV (MIT) for Minecraft 1.20.1. See NOTICE for credit.'''
+
+[[dependencies.bettersafebed]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.bettersafebed]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"

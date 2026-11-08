@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "itamio.bettersafebed.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "bettersafebed.refmap.json",
+  "mixins": [
+    "MonsterMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
