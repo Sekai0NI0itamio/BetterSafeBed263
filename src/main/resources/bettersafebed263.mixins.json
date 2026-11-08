@@ -4,5 +4,6 @@
   "package": "itamio.bettersafebed.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": ["MonsterMixin"],
-  "injectors": {"defaultRequire": 1}
+  "injectors": {"defaultRequire": 1},
+  "refmap": "bettersafebed263.refmap.json"
 }
