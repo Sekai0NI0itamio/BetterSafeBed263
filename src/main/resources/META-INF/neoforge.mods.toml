@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="Itamio, frankV"
+description="Lets you sleep when safe even if monsters lurk nearby out of reach. A monster only prevents resting if it is actually targeting you. Unofficial NeoForge port for Minecraft 1.21.11 of Better Safe Bed by frankV (MIT). Code updated to 1.21.11 by Itamio. See NOTICE for credit and licensing details."
+
+[[mixins]]
+config="bettersafebed263.mixins.json"
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    mandatory=true
+    versionRange="[${neo_version},)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
